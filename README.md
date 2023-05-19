@@ -1,6 +1,7 @@
 # React ToDo-app with a Firebase backend
 
 To install the dependencies, use `npm install`
+To run the project locally, use `npm start`
 
 ### Dependencies: 
 - @testing-library/jest-dom

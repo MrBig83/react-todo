@@ -4,8 +4,8 @@ import {AiOutlinePlus} from "react-icons/ai"
 import ToDo from "./todo";
 import {db} from "./firebase"
 import {query, collection, onSnapshot, updateDoc, doc, addDoc, deleteDoc} from 'firebase/firestore'
-var firebase = require('firebase');
-var firebaseui = require('firebaseui');
+// var firebase = require('firebase');
+// var firebaseui = require('firebaseui');
 
 const style = {
   bg: `h-screen w-screen p-4 bg-gradient-to-r from-[#181A36] to-[#040723]`,
@@ -21,18 +21,18 @@ function App() {
   const [todos, setTodos] = useState([])
   const [input, setInput] = useState("")
   
-  //Auth
-  // Initialize the FirebaseUI Widget using Firebase.
+//   //Auth
+//   // Initialize the FirebaseUI Widget using Firebase. 
 
-  var ui = new firebaseui.auth.AuthUI(firebase.auth());
+//   var ui = new firebaseui.auth.AuthUI(firebase.auth());
 
-  ui.start('#firebaseui-auth-container', {
-  signInOptions: [
-    // List of OAuth providers supported.
-    firebase.auth.GoogleAuthProvider.PROVIDER_ID
-  ],
-  // Other config options...
-});
+//   ui.start('#firebaseui-auth-container', {
+//   signInOptions: [
+//     // List of OAuth providers supported.
+//     firebase.auth.GoogleAuthProvider.PROVIDER_ID
+//   ], 
+//   // Other config options...
+// });
 
 
   //End of Auth

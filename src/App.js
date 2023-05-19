@@ -22,7 +22,7 @@ function App() {
   const [input, setInput] = useState("")
   
 //   //Auth
-//   // Initialize the FirebaseUI Widget using Firebase.
+//   // Initialize the FirebaseUI Widget using Firebase. 
 
 //   var ui = new firebaseui.auth.AuthUI(firebase.auth());
 

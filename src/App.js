@@ -30,7 +30,7 @@ function App() {
 //   signInOptions: [
 //     // List of OAuth providers supported.
 //     firebase.auth.GoogleAuthProvider.PROVIDER_ID
-//   ],
+//   ], 
 //   // Other config options...
 // });
 

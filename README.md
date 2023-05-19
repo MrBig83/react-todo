@@ -3,7 +3,10 @@
 To install the dependencies, use `npm install`
 To run the project locally, use `npm start`
 
+
 All files in the /src - folder are created by me. 
+
+=======
 
 ### Dependencies: 
 - @testing-library/jest-dom
